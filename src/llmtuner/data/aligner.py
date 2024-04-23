@@ -98,10 +98,7 @@ def align_dataset(
         system: "..."
         tools: "..."
     """
-    if dataset_attr.formatting == "alpaca":
-        convert_func = partial(convert_alpaca, dataset_attr=dataset_attr)
-    else:
-        convert_func = partial(convert_sharegpt, dataset_attr=dataset_attr)
+    convert_func = partial(convert_sharegpt, dataset_attr=dataset_attr)
 
     column_names = list(next(iter(dataset)).keys())
     features = Features.from_dict(
