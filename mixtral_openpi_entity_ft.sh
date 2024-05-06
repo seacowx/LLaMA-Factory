@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=6 python src/train_bash.py \
+CUDA_VISIBLE_DEVICES=1 python src/train_bash.py \
     --stage sft \
     --do_train \
     --model_name_or_path /scratch/prj/inf_llmcache/hf_cache/models--mistralai--Mixtral-8x7B-Instruct-v0.1/snapshots/125c431e2ff41a156b9f9076f744d2f35dd6e67a/ \
@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=6 python src/train_bash.py \
     --template mistral \
     --finetuning_type lora \
     --lora_target q_proj,v_proj \
-    --output_dir ../../../ft_weights/masktom/mixtral_2/openpi_entity_guided_weights/ \
+    --output_dir ../../../ft_weights/masktom/mixtral_1/openpi_entity_guided_weights/ \
     --overwrite_cache \
     --per_device_train_batch_size 32 \
     --gradient_accumulation_steps 4 \

@@ -6,7 +6,7 @@ CUDA_VISIBLE_DEVICES=7 python src/train_bash.py \
     --template mistral \
     --finetuning_type lora \
     --lora_target q_proj,v_proj \
-    --output_dir ../../../ft_weights/masktom/mixtral_2/openpi_entity_attr_guided_weights/ \
+    --output_dir ../../../ft_weights/masktom/mixtral_1/openpi_entity_attr_guided_weights/ \
     --overwrite_cache \
     --per_device_train_batch_size 32 \
     --gradient_accumulation_steps 4 \

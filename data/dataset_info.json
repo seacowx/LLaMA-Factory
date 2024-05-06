@@ -369,6 +369,7 @@
   },
   "openpi": {
     "file_name": "../../../data/ft_data/openpi_train.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -383,6 +384,7 @@
   },
   "openpi_entity_guided": {
     "file_name": "../../../data/ft_data/openpi_entity_guided_train.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -397,6 +399,7 @@
   },
   "openpi_entity_attr_guided": {
     "file_name": "../../../data/ft_data/openpi_entity_attr_guided_train.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -411,6 +414,7 @@
   },
   "atomic": {
     "file_name": "../../../data/ft_data/atomic_train.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -425,6 +429,7 @@
   },
   "atomic_grouped": {
     "file_name": "../../../data/ft_data/atomic_train_grouped.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -439,6 +444,7 @@
   },
   "event2mind": {
     "file_name": "../../../data/ft_data/event2mind_train.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
@@ -453,6 +459,7 @@
   },
   "event2mind_grouped": {
     "file_name": "../../../data/ft_data/event2mind_train_grouped.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
