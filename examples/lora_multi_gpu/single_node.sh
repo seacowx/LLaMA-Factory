@@ -1,8 +1,8 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch \
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch \
     --config_file ../accelerate/single_config.yaml \
-    ../../src/train_bash.py \
+    ../../src/train.py \
     --stage sft \
     --do_train \
     --model_name_or_path meta-llama/Llama-2-7b-hf \

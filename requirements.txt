@@ -15,3 +15,5 @@ fastapi
 sse-starlette
 matplotlib
 fire
+packaging
+pyyaml
