@@ -362,7 +362,7 @@
     }
   },
   "openpi_entity_guided": {
-    "file_name": "../../../data/ft_data/openpi_entity_guided_train.json",
+    "file_name": "../../../data/ft_data/openpi_entity_guided.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
@@ -377,7 +377,7 @@
     }
   },
   "openpi_entity_attr_guided": {
-    "file_name": "../../../data/ft_data/openpi_entity_attr_guided_train.json",
+    "file_name": "../../../data/ft_data/openpi_entity_attr_guided.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
